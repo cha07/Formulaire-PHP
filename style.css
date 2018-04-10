@@ -1,0 +1,79 @@
+
+body {
+	
+	font-family:'Amatic SC';
+    color:#1a1c16;
+    }
+
+h1 {
+	width:498px;
+	height:64px;
+	color:#1a1c16;
+	font-family:'Amatic SC';
+	padding:17px 0px 0px 78px;
+	letter-spacing:1px;
+	font-size:2.2em;
+	margin:0 auto;
+}
+
+label {
+    font-size:30px;
+    
+    display:block;
+    margin-top:20px;
+    letter-spacing:2px;
+}
+
+/* Centre the page */
+.body {
+    display:block;
+    margin:0 auto;
+    width:1000px;
+    background: url(bois1.jpg);
+}
+
+/* Centre the form within the page */
+form {
+    margin:0 auto;
+    width:459px;
+}
+
+/* Style the text boxes */
+
+textarea {
+	height:213px;
+	background: #efefef;
+}
+
+input, textarea {
+    width:439px;
+    height:27px;
+    background:#efefef;
+    border:1px solid #dedede;
+    padding:10px;
+    margin-top:3px;
+    font-size:0.9em;
+    color:#1a1c16;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+}
+
+input:focus, textarea:focus {
+    border:1px solid #e29f18;
+}
+
+#submit {
+    width:127px;
+    height:60px;
+    color:#1a1c16;
+    font-family:'Amatic SC'; 
+    font-size: 30px;
+    border:none;
+    margin-top:20px;
+    cursor:pointer;
+}
+
+	#submit:hover {
+	    opacity:.9;
+    }

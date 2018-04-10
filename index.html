@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet"> 
+<link rel="stylesheet" href="style.css" />
+<title>Formulaire PHP</title>
+</head>
+
+<body>
+    <header class="body">
+    </header>
+
+    <h1>Contactez moi</h1>
+
+    <section class="body">
+        
+    <form method="post" action="traitement.php"name="formul" onsubmit="return(validate());">
+        
+    <label>NOM</label>
+    <input name="name" placeholder="Ecrire ici">
+            
+    <label>Email</label>
+    <input name="email" type="email" placeholder="Ecrire ici">
+            
+    <label>Message</label>
+    <textarea name="message" placeholder="Ecrire ici"></textarea>
+            
+    <label>*Combien font 2+2? (Anti-spam)</label>
+    <input name="human" placeholder="Réponse?"> 
+    <input id="submit" name="submit" type="submit" value="Envoyer">
+       
+    <script type="text/javascript" src="form.js"></script>
+    </form>
+    </section>
+    
+
+    <footer class="body">
+    </footer>
+
+</body>
+
+</html>
